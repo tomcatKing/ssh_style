@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<!--支持移动设备优先-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>美食详情</title>
+	
+	<!--导入bootstrap的css-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	<!--导入自定义的css样式-->
+	<link rel="stylesheet" href="css/detail.css"/>
+	<!--导入jquery文件-->
+	<script type="text/javascript" src="js/man.js"></script>
+	<!--导入bootstrap的js文件,因为它依赖于jquery-->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js">
+	</script>
+	<!--导入封装好的ajax-->
+	<script type="text/javascript" src="js/network.js"></script>
+	<!--导入页面相关事件-->
+	<script type="text/javascript" src="js/url.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
+	
+</head>
+<body>
+	<!--布局容器-->
+	<div class="container img-responsive">	
+		<div class="row text-center title">
+			<div class="col-xs-5 col-sm-4 col-md-3 col-lg-3 title-button">
+				<span class="title-item" gt="login.html">
+					<span><img src="img/登录.png"/></span> 登录
+					<!--用户-->
+				</span>
+				<span class="h5">|</span>
+				<span class="title-item" gt="regist.html">
+					注册 
+					<!-- 退出 -->
+					<span><img src="img/注册.png"/></span> 
+				</span>
+			</div>
+			<div class="col-xs-5 col-sm-4 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-4 col-md-offset-6 col-lg-offset-6 title-button" >
+				<span class="title-item" gt="index.html">
+					<span><img src="img/首页.png"/></span>
+					首页
+				</span>
+				<span class="h5">|</span>
+				<span class="title-item" gt="help.html">
+					关于
+					<span><img src="img/关于.png"/></span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!--商品详情-->
+	<div class="container">
+		<div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-sm-offset-2 col-md-offset-3 col-lg-offset-4 food-item ">
+			<div class="food-item-img food-item-basic">
+				<img src="http://img.happymmall.com/775a68d6-ccf7-400f-879d-0c3946fbf109.jpg"/>
+			</div>
+			<div class="food-item-name food-item-basic">小米MIX2 全面屏游戏手机 6GB+64GB 黑色 </div>
+			<div class="food-item-desc food-item-basic">正面几乎全是屏幕，仿佛握着一块透明玻璃</div>
+			<div class="food-item-price food-item-basic">￥2899</div>
+			<div class="food-buy-btn food-item-basic">加入美食清单</div>
+		</div>
+	</div>
+
+	<!--相关评论-->
+	<div class="container">
+		<div class="food-comment-title">相关评论</div>
+		<div class="food-comment-list center-block">
+			<div class="food-comment">
+				<div class="food-comment-header">
+					<div class="food-comment-user">
+						<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555682391781&di=5f67d77f1cec445ac74fc728978def38&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201611%2F05%2F20161105094903_eCcTH.jpeg"/>
+					</div>
+					<div class="food-comment-name">谢谢你们的鱼</div>
+					<div class="food-comment-date">2019-04-19 19:13:21</div>
+				</div>
+				<div class="food-comment-desc">真的没有什么问道，颜色非常漂亮。喜欢，但愿不会很快掉了。</div>
+			</div>	
+
+			<div class="food-comment">
+				<div class="food-comment-header">
+					<div class="food-comment-user">
+						<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1555673443&di=e4692989a8d383c9b8cdc0c3cd5102ac&src=http://img03.mmbang.info/app/2018/07/05/5b051aad-4205-4c45-95d3-6f8bf5f4e16f.jpg"/>
+					</div>
+					<div class="food-comment-name">版上有狸猫</div>
+					<div class="food-comment-date">2019-04-19 19:13:21</div>
+				</div>
+				<div class="food-comment-desc">显示效果: 屏幕清晰度高，不存在模糊情况。 运行速度: 手机运行内存4G，储存空间32G，运行速度快，滑动顺畅。 拍照效果: 拍照效果清晰，自拍更美丽。 电池续航: 电池容量超大，4000毫安，充满电正常使用可用两天多。如果持续打游戏，后台又开很多应用的话，也能用一天多。 总结: 这款手机很不错，性价比高，原装正版，手机运行内存够大，储存空间32G够用的，给妈妈买的手机，她也不需要打游戏，就刷刷视频，聊聊微信。推荐大家买哦，华为手机我们全家都在用，品牌还是值得信赖的</div>
+			</div>	
+
+			<div class="food-comment">
+				<div class="food-comment-header">
+					<div class="food-comment-user">
+						<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1555673443&di=148373757e96c4e6c76c4055b7e96049&src=http://b-ssl.duitang.com/uploads/item/201709/27/20170927212833_eWMFv.jpeg"/>
+					</div>
+					<div class="food-comment-name">王大锤的大锤</div>
+					<div class="food-comment-date">2019-04-19 19:13:21</div>
+				</div>
+				<div class="food-comment-desc">显示效果: 清晰 运行速度: 流畅 拍照效果: 清晰 电池续航: 续航能力强 总结: 不错</div>
+			</div>	
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.title{
+	background-color: #50cbee;
+	color:#fff;
+	padding:0 10px;
+}
+.title-button{
+	display: flex;
+	justify-content: space-around;
+	padding:2px 5px;
+	line-height: 20px;
+	font-size:16px;
+	align-items: center;
+}
+.title-button span img{
+	width:16px;
+	height:16px;
+}
+.isSelect{
+	color:#dedede;
+}
+.help{
+	text-align: center;
+}
+.help p{
+	padding:15px 10px;
+	font-size:14px;
+	color:#666;
+}
+.help p a{
+	text-decoration: none;
+	font-weight: 700;
+}

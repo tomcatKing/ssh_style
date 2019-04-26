@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<!--支持移动设备优先-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>首页</title>
+	
+	<!--导入bootstrap的css-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	<!--导入自定义的css样式-->
+	<link rel="stylesheet" href="css/index.css"/>
+
+	<script type="text/javascript" src="js/man.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js">
+	</script>
+	<script type="text/javascript" src="js/network.js"></script>
+	<script type="text/javascript" src="js/url.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<!--布局容器-->
+	<div class="container img-responsive">	
+		<div class="row text-center title">
+			<div class="col-xs-5 col-sm-4 col-md-3 col-lg-3 title-button">
+				<span class="title-item" gt="login.html">
+					<span><img src="img/登录.png"/></span> 登录
+					<!--用户-->
+				</span>
+				<span class="h5">|</span>
+				<span class="title-item" gt="regist.html">
+					注册 
+					<!-- 退出 -->
+					<span><img src="img/注册.png"/></span> 
+				</span>
+			</div>
+			<div class="col-xs-5 col-sm-4 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-4 col-md-offset-6 col-lg-offset-6 title-button" >
+				<span class="isSelect title-item" gt="index.html">
+					<span><img src="img/首页(select).png"/></span>
+					首页
+				</span>
+				<span class="h5">|</span>
+				<span class="title-item" gt="help.html">
+					关于
+					<span><img src="img/关于.png"/></span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!--搜索框-->
+	<div class="container input_title">
+		<div class="food_img_title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			BbzzzS
+		</div>
+	</div>
+
+	<!--选项框-->
+	<div class="container search_title text-center">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 select-btn-block">
+			<span class="h4 class_btn" food_types="0,1">
+				<img src="img/美食.png" class="img_title"/>
+				<span class="select-btn">美食美客</span>
+			</span>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 select-btn-block">
+			<span class="h4 class_btn" food_types="2,5">
+				<img src="img/浓汤.png" class="img_title"/>
+				<span class="select-btn">高汤主食</span>
+			</span>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 select-btn-block">
+			<span class="h4 class_btn"food_types="3,4">
+				<img src="img/甜点.png" class="img_title"/>
+				<span class="select-btn">幸福甜点</span>
+			</span>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 select-btn-block">
+			<span class="h4 class_btn" food_types="6">
+				<img src="img/饮料.png" class="img_title"/>
+				<span class="select-btn">美酒饮料</span>	
+			</span>
+		</div>
+	</div>
+	
+	<!--最热门-->
+	<div class="container special">
+		<div class="Fiery col-xs-12 col-sm-12 col-md-12 col-lg-12">最热</div>
+		<div class="Fiery-list col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2" keyword='辣'>
+				<div class="fiery-item-title">火锅必点</div>
+				<div class="fiery-item-img">
+					<img src="http://img.zcool.cn/community/0311a7f58acf5baa801219c77a6a1e1.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2" keyword='冰'>
+				<div class="fiery-item-title">清凉一夏</div>
+				<div class="fiery-item-img">
+					<img src="http://pic31.photophoto.cn/20140506/0042040552214257_b.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2" keyword='肉'>
+				<div class="fiery-item-title">肉食盛宴</div>
+				<div class="fiery-item-img">
+					<img src="http://pic7.nipic.com/20100506/3614713_102907002652_2.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2" keyword='菜'>
+				<div class="fiery-item-title">清甜素食</div>
+				<div class="fiery-item-img">
+					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555672903348&di=5dfaefd950d01f0d25c28d4c2f61a81c&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F30adcbef76094b36e89a08c5a8cc7cd98d109d89.jpg"/>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--最新-->
+	<div class="container special">
+		<div class="Fiery col-xs-12 col-sm-12 col-md-12 col-lg-12">最新</div>
+		<div class="Fiery-list col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2">
+				<div class="fiery-item-title">酸菜鱼</div>
+				<div class="fiery-item-img">
+					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555673535136&di=4451f8adc7b6b6337d83c521080c1534&imgtype=0&src=http%3A%2F%2Fimg2.e0575.com%2Fupload%2Fu%2F2012-09-11%2F79d4e667165d3e8e8e8d1a53b4637f31.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2">
+				<div class="fiery-item-title">凉拌土豆丝</div>
+				<div class="fiery-item-img">
+					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555673181845&di=d34a48d5a32bd04ef6935ec8e0ec4200&imgtype=0&src=http%3A%2F%2Fuploads.jy135.com%2Fallimg%2F201701%2F8-1F11Q62233.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2">
+				<div class="fiery-item-title">炸粉</div>
+				<div class="fiery-item-img">
+					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555673234338&di=3653eb3847c6c27a595286840b243145&imgtype=0&src=http%3A%2F%2Fimg005.hc360.cn%2Fm1%2FM01%2F4E%2F48%2FwKhQb1QmWHSEIk_hAAAAANe-MTg895.jpg"/>
+				</div>
+			</div>
+			<div class="Fiery-item col-xs-5 col-sm-4 col-md-3 col-lg-2">
+				<div class="fiery-item-title">白菜猪肉炖粉条</div>
+				<div class="fiery-item-img">
+					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555673502226&di=4f365ebd7d2ad41f0ce6baefefa091bf&imgtype=0&src=http%3A%2F%2Fcp2.douguo.net%2Fupload%2Fcaiku%2F4%2F2%2Fd%2Fyuan_42919fa326b7c6c787799dbd8bd25b9d.jpg"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--结尾标识-->
+	<div class="container text-center end-title" style="display: none">
+		Copyright © 2018 tomcatBbzzzs.cn All Rights Reserved
+	</div>
+</body>
+</html>

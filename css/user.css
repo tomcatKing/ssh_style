@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.title{
+	background-color: #50cbee;
+	color:#fff;
+	padding:0 10px;
+}
+.title-button{
+	display: flex;
+	justify-content: space-around;
+	padding:2px 5px;
+	line-height: 20px;
+	font-size:16px;
+	align-items: center;
+}
+.title-button span img{
+	width:16px;
+	height:16px;
+}
+.select-btns{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+.select-btns>div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:120px;
+	text-align: center;
+	margin-top:10px;
+	margin-left: 10px;
+	color:#50cbee;
+	border:1px solid #50cbee;
+} 
+.select-btns>div>img{
+	width:28px;
+	height:28px;
+}
+.select-btns>.isTrue{
+	color:#fff;
+	background-color:#50cbee; 
+	border:1px solid #50cbee;
+}
+.room-title{
+	text-align: center;
+	margin-top:20px;
+}
+.room-title span{
+	text-align: center;
+	padding:3px 10px;
+	background-color: #50cbee;
+	color:#fff;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.room-body{
+	width:80%;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+.room-msg{
+	font-size: 12px;
+	width:100%;
+	text-align: center;
+	box-sizing: border-box;
+	display: flex;
+	justify-content:space-between;
+	align-items: center; 
+}
+.room-msg>div{
+	font-size:14px;
+	color:#fff;
+	padding:3px 7px;
+	margin:5px 0;
+	background-color: #50cbee;
+}
+.room-money{
+	color:#ca0505;
+	font-weight: 700;
+}
+.food-item{
+	border:2px solid #fff;
+}
+.food-item-msg{
+	border:1px solid #666;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.food-msg{
+	text-align: center;
+}
+.food-price{
+	font-size:12px;
+}
+.food-img{
+	width:50px;
+	height:50px;
+}
+.food-img img{
+	width:100%;
+	height:100%;
+}
+.exit_room_body{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.exit_room{
+	text-align: center;
+	padding:3px 10px;
+	font-size:16px;
+	color:#50cbee;
+	border:1px solid #50cbee;
+}
